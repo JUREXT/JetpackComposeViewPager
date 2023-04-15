@@ -18,10 +18,10 @@ import com.jetpackcompose.viewpager.R
 fun HorizontalPagerWithIndicatorsScreen() {
     val images = listOf(
         R.drawable.logo_android,
-        R.drawable.logo_kotlin,
-        R.drawable.logo_gradle,
-        R.drawable.logo_github,
+        R.drawable.logo_twitter,
         R.drawable.logo_google,
+        R.drawable.logo_instagram,
+        R.drawable.logo_fb,
     )
     Column {
         HorizontalPagerWithIndicators(images)
